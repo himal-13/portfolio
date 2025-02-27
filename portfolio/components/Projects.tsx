@@ -10,15 +10,13 @@ const Projects = () => {
             details:'A Fullstack social media app in React,Firebase. Users can add, edit, delete, like , comment, save posts. Users can also follow, unfollow other users and many more.'},
         {image:'/images/movie-app.png',title:'Movie app',github:'https://github.com/himal-13/movies-app',website:'https://movie-app-pi-lemon.vercel.app/',
           details:'A Movie app to search any movies,genres, add to and remove from favorites,rate & reviews, watch history and many more.',},
+          {image:'/images/code-editor.png',title:'Code editor',github:"https://github.com/himal-13/code-editor",website:"https://code-editor-ebon-theta.vercel.app/",
+            details:'Full stack code editor with auth, database etc. Where users can contribute to same project.'},
         {image:'/images/quiz-game.png',title:"Quiz Game", github:'https://github.com/himal-13/quiz-game-web',website:'https://quiz-game-web.vercel.app/',
           details:'A Quiz game where user can play in different levels, and compare scores. Each level is more difficult than previous.'},
-        {image:'/images/weather-app.png',title:'Weather app',github:"https://github.com/himal-13/weather-app",website:"https://weather-app-one-zeta-23.vercel.app/",
-          details:'Weather app using API, users can search their location and get weather information.'},
         {image:'/images/daily-posts.png',title:'Daily Posts',github:"https://github.com/himal-13/daily-posts/tree/main/daily-posts",website:"https://daily-posts-eight.vercel.app/",
             details:'A Social media app without backend logic. Users can post, edit, delete, like and follow other.'},
-        {image:'/images/eccomerce-app.png',title:'Shoe eccomerce',github:"https://github.com/himal-13/add-to-cart-eccomerce/tree/main/add-to-cart%20app%20responsive",website:"https://eccomerce-site.vercel.app/",
-                details:'A add to cart logic app with a image gallery and price and simple navbar.'},
-        
+
     ])
     return (
         <main className="py-[5vh] w-full flex flex-col justify-center items-center gap-[5vh] bg-gray-100 mb-[5vh]" id="projects">

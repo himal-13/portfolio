@@ -3,12 +3,13 @@ import { DiCss3,  DiHtml5, DiReact } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import { RiJavascriptFill, RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { SiTypescript } from "react-icons/si";
+import { SiRemix, SiTypescript } from "react-icons/si";
 
 const Skills =()=>{
     const[skillsItems]= useState([
         { icon: <DiHtml5 />,text:'HTML'},{ icon: <DiCss3/>,text:'CSS'},{ icon: <RiJavascriptFill/>,text:'JavaScript'},{ icon: <DiReact/>,text:'React'},
-        { icon: <RiNextjsFill/>,text:'Next JS'},{ icon: <RiTailwindCssFill/>,text:'Tailwind CSS'},{ icon: <SiTypescript/>,text:'TypeScript'},{icon:<IoLogoFirebase />,text:"Firebase"},{ icon: <FaNodeJs/>,text:'Node JS'},
+        { icon: <RiNextjsFill/>,text:'Next JS'},{ icon: <RiTailwindCssFill/>,text:'Tailwind CSS'},{ icon: <SiTypescript/>,text:'TypeScript'},{icon:<IoLogoFirebase />,text:"Firebase"},{ icon: <SiRemix/>,text:'Remix JS'},
+
     ])
     return(
         <main className="h-[60vh]  md:h-[100vh] bg-gray-200 w-full flex flex-col justify-center gap-[5vh] items-center" id="skills">
